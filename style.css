@@ -1,0 +1,76 @@
+body{
+    width: 300px;
+    margin: auto;
+    background-color: #e0dfdf;
+    font-family: sans-serif;
+}
+header{
+    margin: 20px 0;
+    display: flex;
+    position: relative;
+}
+.logo{
+    margin-top: -5px;
+    margin-left: 70px;
+   left: 50%;
+    font-size: 25px;
+}
+.signin{
+    text-align: center;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    width: 100%;
+    padding: 0.4rem 0;
+    margin: 5px 0;
+}
+input::placeholder{
+    text-align: right;
+    padding: 0 0.4rem;
+}
+p{
+    text-align: right;
+    margin: 0 0 15px;
+
+}
+p a{
+    text-decoration: none;
+    color: teal;
+    font-weight: 600;
+}
+.button, button{
+    margin: auto;
+    text-align: left;
+    padding: .5rem;
+    width: 100%;
+    background-color: rgb(46, 188, 245);
+    border: transparent;
+}
+.button{
+    text-align: center !important;
+}
+hr{
+    width: 100%;
+}
+.or{
+    margin: 1rem 0;
+    display: grid;
+    grid-template-columns: 1fr .2fr 1fr;
+    text-align: center;
+    color: #c4c4c4;
+}
+.google{
+    color: white;
+    background-color: red;
+}
+.fb{
+    color: white;
+    background-color: rgb(37, 37, 248);
+}
+span{
+    padding: 0 0 0 100px;
+}
