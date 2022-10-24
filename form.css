@@ -24,6 +24,9 @@ h1{
     margin-top: 20px;
     border-radius: none;
 }
+#Name{
+    border-radius: none;
+}
 input{
     display:block;
     margin-left: 20px;
